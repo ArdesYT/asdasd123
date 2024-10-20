@@ -1,0 +1,103 @@
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <title>Landing Page
+    </title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="icon" href="pics/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="http://huncoder.hu/files/huncoder-styles-1-0.css"> 
+    <link rel="stylesheet" href="http://huncoder.hu/files/huncoder-scripts-1-0.js"> 
+</head>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#about" id="about-link">About Me</a></li>
+                <li><a href="#skills" id="skills-link">Skills</a></li>
+                <li><a href="#contact" id="contact-link">Contact</a></li>
+                <button onclick="toggleLanguage()" class="language-btn">HU/ENG</button>
+                <button onclick="toggleTheme()" class="theme-btn">Theme</button>
+            </ul>
+        </nav>
+    </header>
+    <section id="about" class="section">
+        <div class="section-box">
+            <div class="about-container">
+                <img src="./pics/462929720_2601688800016568_1773166290955488158_n.jpg" alt="Adam's Profile Picture">
+                <div class="about-text">
+                    <h2 id="about-title">Lorem, ipsum.</h2>
+                    <p id="about-description">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium architecto deleniti nisi earum repellendus ullam maxime, iusto vero corrupti eveniet sequi et quidem reprehenderit magnam animi error deserunt, impedit cumque itaque quaerat voluptatum accusantium omnis ipsam! Est architecto ad nisi!
+                    </p>
+                    <h2 id="username-title">Lorem, ipsum.</h2>
+                    <p id="username-description">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt a illum quod maiores fugit totam cum quibusdam reprehenderit iure. Adipisci impedit ipsam vitae facere praesentium temporibus tempore fugiat obcaecati tenetur quidem, cumque, nobis ullam neque, animi explicabo ipsum architecto saepe? Fugit soluta nulla itaque voluptates odit repudiandae accusamus in qui a, temporibus, deserunt quam minus unde provident cumque quaerat suscipit!
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="skills" class="section">
+        <div class="section-box">
+            <h2 id="skills-title">Skills</h2>
+            <div class="skill">
+                <p>JS</p>
+                <div class="progress-bar">
+                    <div class="progress" style="width: 100%;"></div>
+                </div>
+            </div>
+            <div class="skill">
+                <p>Python</p>
+                <div class="progress-bar">
+                    <div class="progress" style="width: 85%;"></div>
+                </div>
+            </div>
+            <div class="skill">
+                <p>MongoDB</p>
+                <div class="progress-bar">
+                    <div class="progress" style="width: 50%;"></div>
+                </div>
+            </div>
+            <div class="skill">
+                <p>C#</p>
+                <div class="progress-bar">
+                    <div class="progress" style="width: 40%;"></div>
+                </div>
+            </div>
+            <div class="skill">
+                <p>PHP</p>
+                <div class="progress-bar">
+                    <div class="progress" style="width: 25%;"></div>
+                </div>
+            </div>    
+            
+            
+        </div>
+    </section>    
+
+    <section id="contact" class="section">
+        <div class="section-box">
+            <h2 id="contact-title">Contact</h2>
+            <div class="contact-buttons">
+                <a href="https://discord.gg" class="btn"><i class="fab fa-discord"></i> Discord</a>
+                <a href="https://www.reddit.com" class="btn"><i class="fab fa-reddit"></i> Reddit</a>
+                <a href="https://github.com" class="btn"><i class="fab fa-github"></i> Github</a>
+                <a href="https://www.youtube.com" class="btn"><i class="fab fa-youtube"></i> YouTube</a>
+                <a href="https://www.twitch.tv" class="btn"><i class="fab fa-twitch"></i> Twitch</a>
+                <a href="https://www.tiktok.com" class="btn"><i class="fab fa-tiktok"></i> TikTok</a>
+                <a href="https://www.linkedin.com" class="btn"><i class="fab fa-linkedin"></i> LinkedIn</a>
+            </div>
+        </div>
+    </section>
+    <button id="backToTop" title="Vissza a tetejére">↑</button>
+    <footer>
+        <p id="FooterP">&copy; 2024 Adam Kovacs. All rights reserved.</p>
+    </footer>
+    <script src="js/index.js"></script>
+</body>
+</html>
