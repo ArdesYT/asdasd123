@@ -15,6 +15,9 @@ body {
     transition: background-color 0.3s ease, color 0.3s ease;
 }
 
+section {
+    scroll-margin-top: 4em;
+}
 /* VilÃĄgos tÃĐma */
 body.light-theme {
     background-color: #ffffff; 
@@ -25,8 +28,7 @@ body.light-theme {
 nav {
     background-color: #333; /* SÃķtÃĐt tÃĐma hÃĄttÃĐr */
     padding: 10px 0;
-    transition: none; /* EltÃĄvolÃ­tja az animÃĄciÃģt */
-    position: relative;
+    transition : none; /* EltÃĄvolÃ­tja az animÃĄciÃģt */
 }
 
 /* VilÃĄgos tÃĐma navigÃĄciÃģs sÃĄv */
@@ -37,6 +39,7 @@ body.light-theme nav {
 
 /* Nav elemek stÃ­lusai */
 nav ul {
+    position: relative;
     list-style: none;
     text-align: center;
 }
@@ -112,9 +115,9 @@ h2 {
 }
 
 .about-container h1 {
-    font-weight: 100;
-    font-size: 5rem;
-    margin: 0 0 2rem 0;
+    font-size: 2rem;
+    margin-bottom: 20px;
+    color: #33b864;
 }
 
 .about-container p {
@@ -143,43 +146,21 @@ body.light-theme a {
     padding: 20px;
     border-radius: 10px;
     animation: fadeInZoom 0.8s ease;
+    width: 1000px;
+    position: relative;
+    display: flex;
+    margin-left: 24%;
+    padding-left: 3.5%;
 }
 
-body.light-theme .project {
-    background-color: #f4f4f4;
+.project .card{
+    margin-right: 10%;
+
 }
 
-.project h3 {
-    font-size: 1.5rem;
-    margin-bottom: 15px;
-    color: #33b864;
-}
-
-body.light-theme .project h3 {
-    color: #333;
-}
-
-.project p {
-    font-size: 0.9rem;
-    margin-bottom: 20px;
-}
-
-.btn {
-    padding: 8px 15px;
-    background-color: #33b864;
-    color: #fff;
-    text-decoration: none;
-    border-radius: 5px;
-    transition: background-color 0.3s ease;
-}
-
-.btn:hover {
-    background-color: #ff4949;
-}
-
-body.light-theme .btn {
-    background-color: #33b864;
-    color: #fff;
+#project-title{
+    margin-left: 26%;
+    position: relative;
 }
 
 /* Skills rÃĐsz */
@@ -246,7 +227,7 @@ body.light-theme footer {
     color: #333;
 }
 
-/* Vissza a tetejÃĐre gomb */
+/* Vissza a tetejére gomb */
 #backToTop {
     display: none;
     position: fixed;

@@ -1,0 +1,28 @@
+.card {
+    transition: 0.3s;
+    width: fit-content;
+    border-radius: 1rem;
+    margin-top: 5%;
+  }
+  
+  .card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.4);
+    transform: scale(1.05);
+  }
+  
+  .container {
+    padding: 2px 16px;
+  }
+
+.card img {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+    border-radius: 15%;
+    width: 220px;
+    height: 200px;
+}
+
+
+.card p {
+    text-align: center;
+    font-size: 1.5rem;
+}
