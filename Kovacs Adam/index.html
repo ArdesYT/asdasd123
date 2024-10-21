@@ -1,0 +1,119 @@
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <title>Landing Page
+    </title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="./css/card.css">
+</head>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#about" id="about-link">About Me</a></li>
+                <li><a href="#project" id="project-link">Projects</a></li>
+                <li><a href="#skills" id="skills-link">Skills</a></li>
+                <li><a href="#contact" id="contact-link">Contact</a></li>
+                <button onclick="toggleLanguage()" class="language-btn">HU/ENG</button>
+                <button onclick="toggleTheme()" class="theme-btn">Theme</button>
+            </ul>
+        </nav>
+    </header>
+    <section id="about" class="section">
+        <div class="section-box">
+            <div class="about-container">
+                <img src="./pics/462929720_2601688800016568_1773166290955488158_n.jpg" alt="Adam's Profile Picture">
+                <div class="about-text">
+                    <h2 id="about-title">Rólam</h2>
+                    <p id="about-description1">
+                        Üdvözöllek a portfóliómban! Kovács Ádám vagyok, 17 éves szoftverfejlesztő tanuló Kaposvárról. Jelenleg egy helyi középiskola informatika szakán tanulok, ahol a programozás iránti szenvedélyem egyre csak növekszik.
+                    </p>
+                    <p id="about-description2">Az első programomat 11 évesen írtam, és azóta rengeteget fejlődtem. Főként Python és JavaScript nyelveken dolgozom, de folyamatosan bővítem a tudásomat új technológiák terén is. Szívesen készítek webalkalmazásokat, játékokat és automatizált megoldásokat, amelyek megkönnyítik a mindennapokat.</p>
+                    <h2 id="username-title">Rólam</h2>
+                    <p id="username-description1">
+                        A projektjeim során nemcsak a kódolásra, hanem a problémamegoldásra és a kreatív gondolkodásra is nagy hangsúlyt fektetek. Célom, hogy innovatív megoldásokat hozzak létre, és folyamatosan tanuljak a szakmáról.
+                    </p>
+                    <p id="username-description2">Nézz körül a portfóliómban, ahol bemutatom néhány eddigi munkámat és projektjeimet. Köszönöm, hogy meglátogattál!</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <h2 id="project-title">Projektjeim</h2>
+    <section class="section project" id="project">
+        <div class="card">
+                <a href="https://ardesyt.github.io/Pong/" target="_blank"><img src="./pics/p-pong.png" alt="Pong Projekt"></a>
+                <p>Pong</p>
+        </div>
+        <div class="card">
+            <a href="https://ardesyt.github.io/Tetris/" target="_blank"><img src="./pics/p-tetris.png" alt="Tetris Projekt"></a>
+            <p>Tetris</p>
+        </div>
+        <div class="card">
+            <a href="https://ardesyt.github.io/Voicepad/" target="_blank"><img src="./pics/p-voicepad.png" alt="Voicepad Projekt"></a>
+            <p>Voicepad</p>
+        </div>
+    </section>
+
+    <section id="skills" class="section">
+        <div class="section-box">
+            <h2 id="skills-title">Skills</h2>
+            <div class="skill">
+                <p>JS</p>
+                <div class="progress-bar">
+                    <div class="progress" style="width: 100%;"></div>
+                </div>
+            </div>
+            <div class="skill">
+                <p>Python</p>
+                <div class="progress-bar">
+                    <div class="progress" style="width: 85%;"></div>
+                </div>
+            </div>
+            <div class="skill">
+                <p>MongoDB</p>
+                <div class="progress-bar">
+                    <div class="progress" style="width: 50%;"></div>
+                </div>
+            </div>
+            <div class="skill">
+                <p>C#</p>
+                <div class="progress-bar">
+                    <div class="progress" style="width: 40%;"></div>
+                </div>
+            </div>
+            <div class="skill">
+                <p>PHP</p>
+                <div class="progress-bar">
+                    <div class="progress" style="width: 25%;"></div>
+                </div>
+            </div>    
+            
+            
+        </div>
+    </section>    
+
+    <section id="contact" class="section">
+        <div class="section-box">
+            <h2 id="contact-title">Contact</h2>
+            <div class="contact-buttons">
+                <a href="https://discord.gg" class="btn" target="_blank"><i class="fab fa-discord"></i> Discord</a>
+                <a href="https://www.reddit.com" class="btn" target="_blank"><i class="fab fa-reddit"></i> Reddit</a>
+                <a href="https://github.com" class="btn" target="_blank"><i class="fab fa-github"></i> Github</a>
+                <a href="https://www.youtube.com" class="btn" target="_blank"><i class="fab fa-youtube"></i> YouTube</a>
+                <a href="https://www.twitch.tv" class="btn" target="_blank"><i class="fab fa-twitch"></i> Twitch</a>
+                <a href="https://www.tiktok.com" class="btn" target="_blank"><i class="fab fa-tiktok"></i> TikTok</a>
+                <a href="https://www.linkedin.com" class="btn" target="_blank"><i class="fab fa-linkedin"></i> LinkedIn</a>
+            </div>
+        </div>
+    </section>
+    <button id="backToTop" title="Vissza a tetejére">↑</button>
+    <footer>
+        <p id="FooterP">&copy; 2024 Adam Kovacs. All rights reserved.</p>
+    </footer>
+    <script src="js/index.js"></script>
+</body>
+</html>
